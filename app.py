@@ -42,7 +42,5 @@ def mainpro2():
 if __name__ == '__main__':
 	app.run(debug = True)
 
-	from matplotlib import rc  ### 이 줄과
-rc('font', family='AppleGothic') 			## 이 두 줄을 
-plt.rcParams['axes.unicode_minus'] = False
+
 
